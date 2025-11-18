@@ -10,4 +10,5 @@ This system is designed for precision livestock farming, enabling automated moni
 # 🔍 Features
 
 YOLO-based detection for fast, accurate broiler localization
+
 DeepSORT tracking for consistent ID assignment across frames
