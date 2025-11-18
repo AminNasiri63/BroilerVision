@@ -81,6 +81,7 @@ BroilerVision/
 
 ## ▶️ Usage
 Run tracking on a video
+
 Inside the script, simply modify the paths:
 ```
 input_video = "input.mp4"
