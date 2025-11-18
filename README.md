@@ -13,6 +13,7 @@ This system is designed for precision livestock farming, enabling automated moni
 
 ✅ DeepSORT tracking for consistent ID assignment across frames
 
+---
 
 ## 📦 Repository Structure
 
@@ -29,3 +30,27 @@ BroilerVision/
 └── deep_sort/
 
 ```
+---
+
+## 🎯 Model Weights
+
+The trained YOLO model (Broiler20.h5, ~675 MB) is hosted on Hugging Face.
+
+👉 Download here:
+https://huggingface.co/AminNasiri63/YOLOToDetectBroilers
+
+Use it programmatically:
+```
+from huggingface_hub import hf_hub_download
+
+model_path = hf_hub_download(
+    repo_id="AminNasiri63/YOLOToDetectBroilers",
+    filename="Broiler.h5"
+)
+
+```
+
+
+
+
+
