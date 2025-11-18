@@ -55,8 +55,9 @@ model_path = hf_hub_download(
 ## 🛠 Installation
 Clone the repository
 ```
-🛠 Installation
-Clone the repository
+git clone https://github.com/AminNasiri63/BroilerVision.git
+cd BroilerVision
+
 ```
 Install dependencies
 
