@@ -82,7 +82,7 @@ BroilerVision/
 ## ▶️ Usage
 Run tracking on a video
 
-Inside the script, simply modify the paths:
+Inside the ```PipelineClass.py```, simply modify the paths:
 ```
 input_video = "input.mp4"
 output_video = "output_tracked.mp4"
