@@ -62,7 +62,6 @@ cd BroilerVision
 Install dependencies
 
 ```
-🛠 Installation
 pip install -r requirements.txt
 ```
 
