@@ -50,6 +50,44 @@ model_path = hf_hub_download(
 
 ```
 
+---
+
+## 🛠 Installation
+Clone the repository
+```
+🛠 Installation
+Clone the repository
+```
+Install dependencies
+
+```
+🛠 Installation
+pip install -r requirements.txt
+```
+
+----
+
+## Download the YOLO model
+
+Place the downloaded ```.h5``` model file inside the root folder:
+```
+BroilerVision/
+│   Broiler.h5   <-- put here
+│   ...
+
+```
+
+---
+
+## ▶️ Usage
+Run tracking on a video
+Inside the script, simply modify the paths:
+```
+input_video = "input.mp4"
+output_video = "output_tracked.mp4"
+```
+
+----
 
 
 
